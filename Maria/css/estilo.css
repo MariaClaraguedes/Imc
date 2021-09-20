@@ -1,0 +1,264 @@
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding:13px  ;
+}
+
+form{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    max-width:500px;
+    max-height:50px;
+    margin:0 auto;
+    padding-top:100px;
+    border-radius: 5px;
+}
+
+#form_cadastro{
+    margin:0 auto;
+    padding-top:100px;
+    max-width:500px;
+}
+.botaoLogin {
+    padding: 5px;
+    background-color: #8600b3;
+    border-style: none;
+    color: #fff;
+    font-weight: bold;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    position:relative;
+    top:30%;
+    left:5%;
+
+}
+.botaoLogin:hover{
+    background-color:#b066ff;
+}
+
+
+
+body{
+    background: rgb(242,230,255);
+    background: radial-gradient(circle, rgba(242,230,255,1) 0%, rgba(176,102,255,1) 100%);
+    margin:0 auto;
+    padding: 0;
+}
+
+#bodyHome{
+    background: rgb(242,230,255);
+    background: radial-gradient(circle, rgba(242,230,255,1) 0%, rgba(96,0,128,1) 100%);
+
+}
+.fundoLogin{
+    box-shadow: 1px 3px 1px white;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+}
+.fundoCadastro{
+    box-shadow: 1px 3px 5px white;
+    background-color: white;
+    padding: 100px;
+    border-radius: 15px;
+    max-height: 650px;
+}
+
+.fundoProdutos{
+    box-shadow: 1px 3px 5px white;
+    background-color: white;
+    padding: 100px;
+    border-radius: 20px;
+    max-height: 400px;
+}
+
+.fundoHome{
+    max-height: 250px;
+    text-align: center;
+}
+.fundoSuperior_Login{
+    text-align: center;
+
+}
+.fundoSuperior_Cadastro{
+    padding-top:-20px
+}
+.fundoSuperior_produtos{
+    text-align: center;
+}
+.fundoVoltar{
+    text-align: center;
+
+
+}
+.imgLogin{
+    box-shadow: 5px 1px 1px white;
+    margin-top:-60px;
+    height: 200px;
+    width: 200px;
+}
+
+h3 {
+    font-family: Arial, Helvetica,sans-serif;
+    font-size: 18px;
+    color: #8600b3;
+    text-align: center;
+}
+
+.input_login{
+    width: 300px;
+    height: 50px;
+    border:none;
+}
+.input_cadastro{
+    width: 300px;
+    height: 30px;
+    border:solid;
+    border-color:#ddd8dc;
+}
+.inputProduto{
+    width: 300px;
+    height: 30px;
+    border:solid;
+    border-color:#ddd8dc;
+}
+
+
+.links{
+    color: white;
+    font-family: Arial, Helvetica,sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-decoration:none;
+}
+
+
+#btnCadastrar{
+    padding: 5px;
+    background-color: #8600b3;
+    border-style: none;
+    color: #fff;
+    font-weight: bold;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    position:relative;
+    top:30%;
+    left:30%;
+}
+#btnCadastrar:hover{
+    background: rgb(204,51,255);
+    background: linear-gradient(90deg, rgba(204,51,255,1) 10%, rgba(255,0,255,1) 75%, rgba(69,106,252,1) 100%);
+
+}
+
+#btnCadastro:hover{
+    background: rgb(204,51,255);
+    background: linear-gradient(90deg, rgba(204,51,255,1) 10%, rgba(255,0,255,1) 75%, rgba(252,176,69,1) 100%);
+
+}
+.botaoCadastro {
+    padding: 5px;
+    background-color: #8600b3;
+    border-style: none;
+    color: #fff;
+    font-weight: bold;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    position:relative;
+    top:30%;
+    left:30%;
+
+}
+.btn-calc-imc{
+    padding: 5px;
+    background-color: #8600b3;
+    border-style: none;
+    color: #fff;
+    font-weight: bold;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    position:relative;
+    top:30%;
+    left:6%;
+
+}
+
+
+.imgCadastro{
+    box-shadow: 5px 1px 1px white;
+    margin-top:-60px;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    padding-top: 5px;
+
+}
+
+.imgProdutos{
+    box-shadow: 5px 1px 1px white;
+    margin-top:-60px;
+    height: 100px;
+    width: 100px;
+}
+.imgVoltar{
+    box-shadow: 5px 1px 1px white;
+    margin-top:10px;
+
+}
+.imgIMC{
+
+}
+select {
+    display: inline-block;
+    width: 310px;
+    height: 30px;
+    outline: none;
+    color: #74646e;
+    border: 1px solid #ddd8dc;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 2px #ddd8dc;
+    background: #fff;
+}
+select option {
+    border: 1px solid #ddd8dc;
+    background:  #ddd8dc;
+}
+
+.menu ul li{
+    background-color: #bf80ff;
+    float:none;
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    margin-left: 30px;
+    border-radius:20px ;
+    border-color:#ddd8dc;
+    border-style: groove;
+}
+
+.menu ul li:hover{
+    background: rgb(242,230,255);
+
+
+}
+.linkCadastro {
+    text-align: center;
+    left: 30%;
+}
+
+.navegacao{
+    padding: 100px;
+    max-height: 400px;
+    text-align: center;
+
+}

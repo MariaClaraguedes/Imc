@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC</title>
+    <link rel="stylesheet" type="text/css" href="../../css/estilo.css" />
+  </head>
+  <body>
+    <div class="container mt-5" style="max-width: 500px;">
+      <section class="fundoLogin">
+        <div class="fundoSuperior_Login">
+        <img class="imgIMC" src="../../img/regua.png" />
+        </br></br>
+        <label class="mb-2">Nome</label>
+        <div>
+          <input class="form-control" id="nome" type="text" placeholder="Nome">
+        </div>
+        <label class="mb-3 mt-3">Peso</label>
+        <div>
+            <input class="form-control" id="peso" type="number" placeholder="Peso">
+        </div>
+        <label class="mb-3 mt-3">Altura</label>
+        <div>
+            <input class="form-control" id="altura" type="number" placeholder="Altura">
+        </div>
+        <input class="btn-calc-imc mt-5 mr-4" type="button" value="calcular" class="button" onclick="Imc()">
+        <p id="resultado" class="mt-5"></p>
+        </div>
+    </section>
+    <script src="js.js"></script>
+    </div>
+  </body>
+</html>
