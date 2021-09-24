@@ -24,6 +24,3 @@ function Imc() {
         document.getElementById('resultado').innerHTML=nome+' você tem obesidade nível 3, '+x+'kg/m2';
     }
     }
-    // window.alert('olá mundo!')
-    // window.confirm('Você esta gostando?')
-    // window.prompt("Qual é o seu nome?")
