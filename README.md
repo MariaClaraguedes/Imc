@@ -7,3 +7,8 @@ Neste projeto, a partir do nome, da peso e da altura do usuário, calcula-se o I
 # Academia
 
 <a href="https://mariaclaraguedes.github.io/Imc/Maria/"><img src="Maria/img/academia.png"/></a>
+
+# Financiamento
+
+<a href="https://mariaclaraguedes.github.io/Imc/Maria/"><img src="Maria/img/Financiamento.png"/></a>
+
